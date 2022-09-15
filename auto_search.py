@@ -10,3 +10,5 @@ element = browser.find_element(By.ID, 'query')
 
 element.send_keys("라인")
 element.send_keys(Keys.ENTER)
+
+browser.quit()
